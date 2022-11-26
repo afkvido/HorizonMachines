@@ -1,0 +1,19 @@
+{
+  "name": "horizon-machines",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist"
+  },
+  "keywords": [],
+  "author": {
+    "name": "gemsvidø",
+    "email": "gemsvido@gmail.com"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "typescript": "^4.9.3"
+  }
+}
