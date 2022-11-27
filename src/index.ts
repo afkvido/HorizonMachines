@@ -1,5 +1,3 @@
-import { MachineClass, MachineTheme } from "./names";
+import RandomMachine from "./generator";
 
-let Theme : MachineTheme = null;
-
-let Class : MachineClass = null;
+console.log(RandomMachine("ACID", "FLYING"))
