@@ -1,3 +1,7 @@
-import RandomMachine from "./generator";
+import CompletleyRandomMachine from "./trueRandom";
 
-console.log(RandomMachine("ACID", "FLYING"))
+const amount = 100;
+
+for (let i = 0; i <= amount; i ++) {
+    console.log(CompletleyRandomMachine());
+}
