@@ -10,5 +10,5 @@ export default function TrueRandom () : string {
     const Theme = r(Themes)!;
     const Class = r(Classes)!;
 
-    return RandomMachine(Theme, Class);
+    return RandomMachine(Theme, Class)
 }
