@@ -1,3 +1,9 @@
-import RandomMachine from "./generator";
+import TrueRandom from "./trueRandom";
 
-console.log(RandomMachine("ACID", "FLYING"))
+const times : number = parseInt(process.argv[2] ?? "1");
+
+
+for (let i = 0; i <= times; i++) {
+    console.log(TrueRandom())
+}
+
